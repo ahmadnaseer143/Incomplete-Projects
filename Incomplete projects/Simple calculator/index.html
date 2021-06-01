@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="form">
+        <input type="text" name="type" placeholder="Enter your Expression">
+        <br><br>
+        <input type="button" value="7" onclick="form.type.value+='7'">
+        <input type="button" value="8" onclick="form.type.value+='8'">
+        <input type="button" value="9" onclick="form.type.value+='9'">
+        <br><br>
+        <input type="button" value="4" onclick="form.type.value+='4'">
+        <input type="button" value="5" onclick="form.type.value+='5'">
+        <input type="button" value="6" onclick="form.type.value+='6'">
+        
+        <br><br>
+        <input type="button" value="1" onclick="form.type.value+='1'">
+        <input type="button" value="2" onclick="form.type.value+='2'">
+        <input type="button" value="3" onclick="form.type.value+='3'">
+        
+        <br><br>
+        <input type="button" value="+" onclick="form.type.value+='+'">
+        <input type="button" value="-" onclick="form.type.value+='-'">
+        <input type="button" value="*" onclick="form.type.value+='*'">
+        <br><br>
+        <input type="button" value="/" onclick="form.type.value+='/'">
+        <input type="button" value="0" onclick="form.type.value+='0'">
+        <input type="button" value="=" onclick="form.type.value=eval(form.type.value)">
+        <br><br>
+        <input type="button" value="Clear" onclick="form.type.value=''">
+    </form>
+</body>
+</html>
