@@ -1,0 +1,26 @@
+.flex-container{
+    color:blue;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 200px;
+    align-items: center;
+}
+.box1{
+    background-color: violet;
+}
+.box2{
+    background-color: indigo;
+}
+.box3{
+    background-color:orange;
+}
+.box4{
+    background-color: green;
+}
+.box5{
+    background-color:red;
+}
